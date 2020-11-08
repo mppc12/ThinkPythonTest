@@ -103,7 +103,7 @@ def main():
     circle = Circle()
     circle.center = Point()
     circle.center.x = 4
-    circle.center.y = 3
+    circle.center.y = 5
     circle.radius = 0.25
     print("Circle:")
     print_point(circle.center)
