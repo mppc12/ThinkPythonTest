@@ -88,9 +88,9 @@ class Deck:
         hand: Hand 類別的物件，撲克牌要發的目標
         num: integer 要移動的卡片數量
         """
-        for i in range(num):
+        for _ in range(num):
             hand.add_card(self.pop_card())
-            i = i   # 無作用，停止顯示警告
+
 
 
 class Hand(Deck):

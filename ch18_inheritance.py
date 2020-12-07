@@ -82,9 +82,9 @@ class Deck:
         hand: 繼承 Deck 類別的 Hand 所製造的物件
         num: 要處理卡牌的數量.
         """
-        for i in range(num):
+        for _ in range(num):
             hand.add_card(self.pop_card())
-            i = i
+
 
 """ 繼承 (inheritance)
 此處 Hand 類別就繼承 Deck.
